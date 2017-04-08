@@ -8,7 +8,7 @@ import org.junit.Before;
  */
 public abstract class AbstractRedisTest {
 
-    private JedisExecutor executor;
+    protected JedisExecutor executor;
 
     @Before
     public void before(){

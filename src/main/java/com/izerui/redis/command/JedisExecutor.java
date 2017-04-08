@@ -26,4 +26,7 @@ public class JedisExecutor {
         return command;
     }
 
+    public Jedis getJedis() {
+        return jedis;
+    }
 }
